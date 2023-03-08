@@ -65,7 +65,7 @@ if(!empty($_SESSION['message'])){
 
     <div class="row pt-5">
         <div class="col-9"> <h2> Liste des Nationalités </h2>    </div>
-        <div class="col-3"><a href="formNationalite.php?action=Ajouter" class='btn btn-success'><img src="Images/plus-circle.svg" width="20" ><i class="fas fa-plus-circle"></i> Créer une nationalité</a> </div>
+        <div class="col-3"><a href="formNationalite.php?action=Ajouter" class='btn btn-success'><img src="../Images/plus-circle.svg" width="20" ><i class="fas fa-plus-circle"></i> Créer une nationalité</a> </div>
 
     </div>
 
@@ -146,11 +146,11 @@ foreach($lesNationalites as $nationalite)
   echo"
  
   <td>
-    <a href='formNationalite.php?action=Modifier&num=$nationalite->num'class='btn btn-success'><img src='Images/modifier.svg'>
+    <a href='formNationalite.php?action=Modifier&num=$nationalite->num'class='btn btn-success'><img src='../images/modifier.svg'>
     
     </a>
     
-    <a href='#modalSupp' data-toggle='modal'data-message='êtes-vous sûr de vouloir supprimer cette nationalité ?' data-supp='supprimerNationalite.php?num=$nationalite->num' class='btn btn-danger'><img src='Images/supp.svg'><i class='fas fa-plus-circle'></i></a>
+    <a href='#modalSupp' data-toggle='modal'data-message='êtes-vous sûr de vouloir supprimer cette nationalité ?' data-supp='supprimerNationalite.php?num=$nationalite->num' class='btn btn-danger'><img src='../Images/supp.svg'><i class='fas fa-plus-circle'></i></a>
       
       
     </a>
