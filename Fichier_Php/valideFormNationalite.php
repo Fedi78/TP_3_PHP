@@ -8,7 +8,7 @@ $continent=$_POST['continent'];
 
 if($action == "Modifier"){
     $req=$monPdo->prepare("update nationalite set libelle = :libelle, numContinent= :continent where num = :num");
-    $req->bindParam(':num' , $num);
+         $req->bindParam(':num' , $num);
     $req->bindParam(':libelle' , $libelle);
     $req->bindParam(':continent' , $continent);
 }else{
