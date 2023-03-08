@@ -1,7 +1,7 @@
  </div>
         <div id="modalSupp"class="modal fade" tabindex="-1">
       <div class="modal-dialog">
-        <div class="modal-content">
+         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title">Confirmation de Suppression</h5>
           </div>
